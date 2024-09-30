@@ -1,0 +1,20 @@
+.form {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+  
+  .inputWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .btn {
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+  }
