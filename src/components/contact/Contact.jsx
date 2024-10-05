@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { deleteContact } from "../../redux/contacts/operations";
 import styles from "./Contact.module.css";
 
+// eslint-disable-next-line react/prop-types
 const Contact = ({ id, name, number }) => {
   const dispatch = useDispatch();
 
